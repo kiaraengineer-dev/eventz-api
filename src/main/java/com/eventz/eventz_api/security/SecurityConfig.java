@@ -64,7 +64,7 @@ public class SecurityConfig {
         configuration.setAllowedOrigins(
     List.of(
         "http://localhost:5173",
-        "https://eventz-fgjpejfmt-kiara-s-projects-6db9e53d.vercel.app"
+        "https://eventz-ticket.vercel.app"
     )
 );
 
