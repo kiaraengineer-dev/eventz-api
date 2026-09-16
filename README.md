@@ -1,5 +1,16 @@
 # Eventz API
 
+![Java](https://img.shields.io/badge/Java-21-ED8B00?logo=openjdk\&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-4-6DB33F?logo=springboot\&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?logo=springsecurity\&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-Authentication-000000?logo=jsonwebtokens\&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?logo=hibernate\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-4169E1?logo=postgresql\&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apachemaven\&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker\&logoColor=white)
+![Render](https://img.shields.io/badge/Deploy-Render-46E3B7?logo=render\&logoColor=white)
+![Neon](https://img.shields.io/badge/Database-Neon-00E699?logo=neon\&logoColor=black)
+
 Backend da plataforma **Eventz**, desenvolvido para gerenciamento de eventos, usuários e autenticação.
 
 A API foi construída com **Java + Spring Boot**, utilizando **PostgreSQL** como banco de dados e **JWT** para autenticação.
@@ -55,6 +66,8 @@ As senhas dos usuários são armazenadas utilizando **BCrypt** e a autenticaçã
 
 ## Estrutura do projeto
 
+```text
+
 src/
 └── main/
     ├── java/
@@ -70,6 +83,7 @@ src/
     │
     └── resources/
         └── application.properties
+```
 
 
 ### Principais responsabilidades
